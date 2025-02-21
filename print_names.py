@@ -1,2 +1,1 @@
-print("Student Name 1")
-print("Student Name 2")
+print("i")
