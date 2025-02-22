@@ -5,8 +5,9 @@ def greet(name):
 
 if __name__ == "__main__":
     if len(sys.argv) > 1:
-    names = sys.argv[1:]
-    for name in names:
+        name = sys.argv[1] 
         greet(name)
     else:
-        print("Write name")
+        print("Add name")
+
+
